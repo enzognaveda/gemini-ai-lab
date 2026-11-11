@@ -14,7 +14,7 @@ client = genai.Client(api_key=api_key)
 
 print("🚀 Conectando con Gemini...")
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash",
     contents="Escribe un hook publicitario de 10 palabras para vender un servicio de IA a empresas.",
 )
 
